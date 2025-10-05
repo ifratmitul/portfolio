@@ -1,0 +1,42 @@
+{
+    "data": [
+        {
+            "degree": "PhD in Computer Science",
+            "institution": "University of South Dakota",
+            "location": "Vermillion, SD",
+            "start_date": "August 2022",
+            "end_date": "Present",
+            "details": [
+                "Research Focus: Machine Learning, Natural Language Processing, and Data Mining.",
+                "Advisor: Dr. Jane Smith.",
+                "GPA: 3.9/4.0"
+            ],
+             "logo":""
+        },
+        {
+            "degree": "Master of Science in Computer Science",
+            "institution": "University of South Dakota",
+            "location": "Vermillion, SD",
+            "start_date": "August 2020",
+            "end_date": "May 2022",
+            "details": [
+                "Thesis: 'Enhancing Text Classification using Deep Learning Techniques'.",
+                "Advisor: Dr. John Doe.",
+                "GPA: 3.8/4.0"
+            ],
+            "logo":""
+        },
+        {
+            "degree": "Bachelor of Science in Computer Science",
+            "institution": "State University",
+            "location": "City, State",
+            "start_date": "August 2016",
+            "end_date": "May 2020",
+            "details": [
+                "Graduated with Honors.",
+                "Relevant Coursework: Data Structures, Algorithms, Database Systems, Operating Systems."
+            ],
+             "logo":""
+        }
+    ]
+}

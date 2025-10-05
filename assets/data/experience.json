@@ -1,0 +1,74 @@
+{
+    "data":[
+        {
+            "order": 1,
+            "position": "Research Assistant",
+            "company": "University of South Dakota",
+            "location": "Vermillion, SD",
+            "start_date": "August 2022",
+            "end_date": "Present",
+            "details": [
+                "Conducting research in Machine Learning, Natural Language Processing, and Data Mining.",
+                "Collaborating with faculty and peers on various research projects.",
+                "Publishing findings in academic journals and conferences."
+            ],
+            "logo":""
+        },
+        {
+            "order": 2,
+            "position": "Graduate Teaching Assistant",
+            "company": "University of South Dakota",
+            "location": "Vermillion, SD",
+            "start_date": "August 2020",
+            "end_date": "May 2022",
+            "details": [
+                "Assisted in teaching undergraduate courses in Computer Science.",
+                "Held office hours to support students with coursework and projects.",
+                "Graded assignments and exams, providing constructive feedback."
+            ],
+            "logo":""
+        },
+        {
+            "order": 3,
+            "position": "Software Engineering Intern",
+            "company": "Kaz Software Limited",
+            "location": "Dhaka, Bangladesh",
+            "start_date": "March 2023",
+            "end_date": "December 2024",
+            "details": [
+                "Developed and tested software applications as part of a dynamic team.",
+                "Participated in code reviews and contributed to improving code quality.",
+                "Gained hands-on experience with Agile development methodologies."
+            ],
+            "logo":""
+        },
+        {
+            "order": 4,
+            "position": "Associate Software Engineer",
+            "company": "Brain Station 23",
+            "location": "Dhaka, Bangladesh",
+            "start_date": "July 2022",
+            "end_date": "February 2023",
+            "details": [
+                "Assisted in the development of web applications using JavaScript and Python.",
+                "Collaborated with senior developers to troubleshoot and resolve software issues.",
+                "Contributed to the documentation of software features and user guides."
+            ],
+            "logo":""
+        },
+        {
+            "order": 5,
+            "position": "Junior Software Engineer",
+            "company": "Square Health Limited",
+            "location": "Dhaka, Bangladesh",
+            "start_date": "June 2020",
+            "end_date": "June 2022",
+            "details": [
+                "Worked on front-end and back-end development tasks.",
+                "Assisted in the maintenance and updating of existing software applications.",
+                "Participated in team meetings and contributed ideas for project improvements."
+            ],
+            "logo":""
+        }
+    ]
+}

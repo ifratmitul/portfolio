@@ -1,0 +1,31 @@
+{
+    "data":[
+        {
+            "order":1,
+            "title":"A Comprehensive Survey on Graph Neural Networks",
+            "authors":"Ifrat Ikhtear, Jane Smith",
+            "venue":"Journal of Machine Learning Research", 
+            "year":2023,
+            "isPreprint":false,
+            "link": "https://jmlr.org/papers/v24/23-1234"
+        },
+        {
+            "order":2,
+            "title":"Explainable AI: Techniques and Applications",
+            "authors":"Ifrat Ikhtear, John Doe",
+            "venue":"Proceedings of the 2023 Conference on Fairness, Accountability, and Transparency", 
+            "year":2023,
+            "isPreprint":false,
+            "link": "https://facctconference.org/2023/papers/ikhtear_explainable_ai.pdf"
+        },
+        {
+            "order":3,
+            "title":"Deep Learning for Natural Language Processing: A Review",
+            "authors":"Ifrat Ikhtear, Alice Johnson",
+            "venue":"IEEE Transactions on Neural Networks and Learning Systems", 
+            "year":2022,
+            "isPreprint":true,
+            "link": "https://arxiv.org/abs/2205.12345"
+        }
+    ]
+}

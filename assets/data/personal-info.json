@@ -1,0 +1,12 @@
+{
+    "firstname": "John",
+    "lastname": "Doe",
+    "email": ["ifrat.ikhtear@gmail.com", "ifratikhtear@coyotes.usd.edu"],
+    "prefered_name": "Ifrat",
+    "profile_header": "PhD Student | Researcher | Software Engineer",
+    "research_interests": [
+        "Computer Vision",
+        "Explainable and Trustworthy AI"
+    ],
+    "bio":""
+}
