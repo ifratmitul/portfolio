@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "tailwindcss";
+
+/* Eliana Template Theme Configuration for Tailwind v4 */
+@theme {
+  /* Custom fonts */
+  --font-outfit: "Outfit", sans-serif;
+  --font-ovo: "Ovo", serif;
+
+  /* Custom colors */
+  --color-light-hover: #fcf4ff;
+  --color-dark-hover: #2a004a;
+  --color-dark-theme: #11001F;
+
+  /* Custom animations */
+  --animate-spin-slow: spin 6s linear infinite;
+
+  /* Custom box shadows */
+  --shadow-black: 4px 4px 0 #000;
+  --shadow-white: 4px 4px 0 #fff;
+}
+
+/* Custom grid utility (not available in @theme) */
+@layer utilities {
+  .grid-cols-auto {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
+/* Global styles from Eliana template */
+html {
+  scroll-behavior: smooth;
+}
+
