@@ -1,60 +1,52 @@
 {
-    "data":[
+    "data": [
         {
             "order": 1,
-            "position": "Research Assistant",
-            "company": "University of South Dakota",
-            "location": "Vermillion, SD",
-            "start_date": "August 2022",
+            "position": "Graduate Research and Teaching Assistant",
+            "company": "AI Lab, University of South Dakota",
+            "location": "SD, USA",
+            "start_date": "January 2025",
             "end_date": "Present",
             "details": [
-                "Conducting research in Machine Learning, Natural Language Processing, and Data Mining.",
-                "Collaborating with faculty and peers on various research projects.",
-                "Publishing findings in academic journals and conferences."
+                "Develop explainable AI models to improve interpretability and adversarial robustness of deep neural networks.",
+                "Design and evaluate defense strategies against adversarial attacks using gradient-based explanation techniques including Grad-CAM.",
+                "Conduct experiments on medical imaging datasets to build reliable and trustworthy AI models for clinical decision support.",
+                "Publish peer-reviewed research in top-tier AI conferences, Q1 Journals and workshops.",
+                "Assist and guide undergraduate students in learning Python and JavaScript through labs and coursework. Evaluate assignments, projects, and lab work to provide constructive feedback."
             ],
-            "logo":""
+            "logo": "assets/images/logo_original_backup_with_outline-DIPF2l6U.svg",
+            "tools": ["Python", "PyTorch", "Keras"]
         },
         {
             "order": 2,
-            "position": "Graduate Teaching Assistant",
-            "company": "University of South Dakota",
-            "location": "Vermillion, SD",
-            "start_date": "August 2020",
-            "end_date": "May 2022",
-            "details": [
-                "Assisted in teaching undergraduate courses in Computer Science.",
-                "Held office hours to support students with coursework and projects.",
-                "Graded assignments and exams, providing constructive feedback."
-            ],
-            "logo":""
-        },
-        {
-            "order": 3,
-            "position": "Software Engineering Intern",
+            "position": "Software Engineer",
             "company": "Kaz Software Limited",
             "location": "Dhaka, Bangladesh",
             "start_date": "March 2023",
             "end_date": "December 2024",
             "details": [
-                "Developed and tested software applications as part of a dynamic team.",
-                "Participated in code reviews and contributed to improving code quality.",
-                "Gained hands-on experience with Agile development methodologies."
+                "Contributed to the design and development of IBFD's Tax Research Platform, collaborating with international teams.",
+                "Improved platform accessibility in compliance with WCAG 2.2 AA standards.",
+                "Worked closely with back-end developers to design and develop RESTful APIs for front-end integration.",
+                "Led junior developers, ensured end-to-end application maintenance, and conducted R&D for feature enhancements."
             ],
-            "logo":""
+            "logo": "assets/images/kaz_software_limited_logo.jpeg",
+            "tools": ["Angular", "TypeScript", "JavaScript", "Java"]
         },
         {
             "order": 4,
-            "position": "Associate Software Engineer",
-            "company": "Brain Station 23",
+            "position": "Software Engineer",
+            "company": "Brain Station 23 PLC",
             "location": "Dhaka, Bangladesh",
             "start_date": "July 2022",
             "end_date": "February 2023",
             "details": [
-                "Assisted in the development of web applications using JavaScript and Python.",
-                "Collaborated with senior developers to troubleshoot and resolve software issues.",
-                "Contributed to the documentation of software features and user guides."
+                "Designed and developed three Angular-based client applications, including two for a financial platform.",
+                "Collaborated with back-end engineers to design and integrate APIs for seamless front-end functionality.",
+                "Mentored junior developers on front-end technologies and software development best practices."
             ],
-            "logo":""
+            "logo": "",
+            "tools": ["Angular", ".NET", "Oracle", "SQL"]
         },
         {
             "order": 5,
@@ -64,11 +56,12 @@
             "start_date": "June 2020",
             "end_date": "June 2022",
             "details": [
-                "Worked on front-end and back-end development tasks.",
-                "Assisted in the maintenance and updating of existing software applications.",
-                "Participated in team meetings and contributed ideas for project improvements."
+                "Collaborated with cross-functional teams to develop new features and resolve existing system issues.",
+                "Led the development of key functionalities including audio/video calling, dental module integration, and dynamic prescription design.",
+                "Conducted research and feasibility analysis to identify optimal implementation strategies."
             ],
-            "logo":""
+            "logo": "",
+            "tools": ["JavaScript", "TypeScript", "Angular", "Dexie.js"]
         }
     ]
 }
