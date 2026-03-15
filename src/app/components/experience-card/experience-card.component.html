@@ -1,1 +1,62 @@
-<p>experience-card works!</p>
+<div class="border border-gray-300 dark:border-white/30 rounded-xl p-6
+            hover:bg-lightHover hover:-translate-y-1 duration-500
+            hover:shadow-black dark:hover:shadow-white/80 dark:hover:bg-darkHover/50">
+
+    <div class="flex flex-col sm:flex-row gap-4 sm:gap-6">
+        <!-- Company Logo -->
+        <div class="flex-shrink-0">
+            <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-xl border border-gray-200 dark:border-white/20
+                        flex items-center justify-center bg-gray-50 dark:bg-darkHover overflow-hidden">
+                <img *ngIf="experience.logo"
+                     [src]="experience.logo"
+                     [alt]="experience.company + ' logo'"
+                     class="w-12 h-12 sm:w-14 sm:h-14 object-contain">
+                <span *ngIf="!experience.logo"
+                      class="text-2xl sm:text-3xl font-bold text-gray-400 dark:text-white/40">
+                    {{ experience.company.charAt(0) }}
+                </span>
+            </div>
+        </div>
+
+        <!-- Experience Details -->
+        <div class="flex-1 min-w-0">
+            <!-- Header: Position & Duration -->
+            <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-1 sm:gap-4 mb-2">
+                <div>
+                    <h3 class="text-lg sm:text-xl font-semibold text-gray-800 dark:text-white font-Ovo">
+                        {{ experience.position }}
+                    </h3>
+                    <p class="text-base text-gray-700 dark:text-white/90 font-medium">
+                        {{ experience.company }}
+                    </p>
+                </div>
+                <div class="text-sm text-gray-500 dark:text-white/60 sm:text-right whitespace-nowrap">
+                    <p>{{ experience.start_date }} - {{ experience.end_date }}</p>
+                    <p class="text-xs">{{ experience.location }}</p>
+                </div>
+            </div>
+
+            <!-- Responsibilities -->
+            <ul class="mt-3 space-y-2">
+                <li *ngFor="let detail of experience.details"
+                    class="text-sm text-gray-600 dark:text-white/70 flex items-start gap-2">
+                    <span class="text-gray-400 dark:text-white/50 mt-1 flex-shrink-0">•</span>
+                    <span>{{ detail }}</span>
+                </li>
+            </ul>
+
+            <!-- Tools/Tech Stack -->
+            <div *ngIf="experience.tools && experience.tools.length > 0" class="mt-4">
+                <div class="flex flex-wrap gap-2">
+                    <span *ngFor="let tool of experience.tools"
+                          class="px-3 py-1 text-xs font-medium rounded-full
+                                 bg-gray-100 text-gray-700
+                                 dark:bg-white/10 dark:text-white/80
+                                 border border-gray-200 dark:border-white/20">
+                        {{ tool }}
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

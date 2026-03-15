@@ -1,15 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HomeComponent } from './home/home.component';
+import { WorkHomeComponent } from './work-home/work-home.component';
 import { RouterModule, Routes } from '@angular/router';
-import { AboutmeComponent } from '../../components/aboutme/aboutme.component';
 import { ExperienceCardComponent } from '../../components/experience-card/experience-card.component';
-
 
 const routes: Routes = [
   {
     path: '',
-    component: HomeComponent
+    component: WorkHomeComponent
   }
 ];
 
@@ -18,8 +16,7 @@ const routes: Routes = [
   imports: [
     CommonModule,
     RouterModule.forChild(routes),
-    HomeComponent,
-    AboutmeComponent
+    WorkHomeComponent
   ]
 })
-export class HomeModule { }
+export class WorkModule { }

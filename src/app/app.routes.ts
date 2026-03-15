@@ -8,5 +8,9 @@ export const routes: Routes = [
   {
     path: 'education',
     loadChildren: () => import('./modules/education/education.module').then(m => m.EducationModule)
+  },
+  {
+    path: 'work',
+    loadChildren: () => import('./modules/work/work.module').then(m => m.WorkModule)
   }
 ];

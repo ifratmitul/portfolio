@@ -1,11 +1,11 @@
-    <div class="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4">
+    <div class="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4 relative">
         <img src="/assets/images/Student Headshots-526.jpg" alt="" class="rounded-full w-32" />
         <h3 class="flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo">
             Hi! I&apos;m Ifrat;
             <img src="/assets/images/hand-icon.png" alt="" class="w-6 mb-1" />
         </h3>
-        <h1 class="text-3xl sm:text-6xl lg:text-[66px] font-Ovo">Software Engineer & AI Researcher</h1>
-        <p class="max-w-2xl mx-auto font-Ovo">I am a Software Engineer based on USA with over 5 years of experience.</p>
+        <h1 class="text-3xl sm:text-6xl lg:text-[66px] font-Ovo">AI Researcher & Software Engineer</h1>
+        <p class="max-w-2xl mx-auto font-Ovo">Exploring research in Explainable AI and Adversarial Machine Learning for Trustworthy AI, with 4+ years of industry experience.</p>
 
         <div class="flex flex-col sm:flex-row items-center gap-4 mt-4">
             <a href="#contact"
@@ -18,4 +18,20 @@
                 my resume <img src="/assets/images/download-icon.png" alt="" class="w-4 dark:invert" />
             </a>
         </div>
+
+        <!-- Scroll Down Indicator -->
+        <a *ngIf="showScrollIndicator" href="#about"
+           class="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2
+                  text-gray-500 dark:text-white/60 hover:text-gray-700 dark:hover:text-white/80
+                  transition-all duration-300 cursor-pointer group"
+           [class.opacity-0]="!showScrollIndicator">
+            <span class="text-sm font-Ovo">Scroll Down</span>
+            <div class="w-6 h-10 border-2 border-gray-400 dark:border-white/40 rounded-full flex justify-center pt-2
+                        group-hover:border-gray-600 dark:group-hover:border-white/60 transition-colors">
+                <div class="w-1.5 h-3 bg-gray-400 dark:bg-white/40 rounded-full animate-bounce
+                            group-hover:bg-gray-600 dark:group-hover:bg-white/60 transition-colors"></div>
+            </div>
+        </a>
     </div>
+
+    <app-aboutme></app-aboutme>
