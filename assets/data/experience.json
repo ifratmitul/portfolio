@@ -45,7 +45,7 @@
                 "Collaborated with back-end engineers to design and integrate APIs for seamless front-end functionality.",
                 "Mentored junior developers on front-end technologies and software development best practices."
             ],
-            "logo": "",
+            "logo": "assets/images/brain_station_23_logo.jpeg",
             "tools": ["Angular", ".NET", "Oracle", "SQL"]
         },
         {
@@ -60,7 +60,7 @@
                 "Led the development of key functionalities including audio/video calling, dental module integration, and dynamic prescription design.",
                 "Conducted research and feasibility analysis to identify optimal implementation strategies."
             ],
-            "logo": "",
+            "logo": "assets/images/sqh-ltd.jpeg",
             "tools": ["JavaScript", "TypeScript", "Angular", "Dexie.js"]
         }
     ]
